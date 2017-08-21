@@ -1,0 +1,10 @@
+*.pyc
+*.swp
+*.error
+*.log
+.idea
+.DS_Store
+
+.project
+.settings/*
+.pydevproject
