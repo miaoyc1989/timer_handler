@@ -4,8 +4,12 @@
 import tornado.web
 
 
+count = 0
+
 class HelloHandler(tornado.web.RequestHandler):
     def get(self):
-        self.write("Hello, vicky!")
+        global count
+        count += 1
+        self.write("Hello, vicky! %s" % count)
 
 
