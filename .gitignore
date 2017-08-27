@@ -4,6 +4,8 @@
 *.log
 .idea
 .DS_Store
+.viminfo
+.gitconfig
 
 .project
 .settings/*
